@@ -1,0 +1,14 @@
+Online Gaget Shopping web site (E-commerce)
+
+step to run web site
+    1. run wempserver or xxamp server
+    2. go to phpmysql
+    3. create  'signup' database
+    4. click on import option
+    5. select signup.sql file 
+    6. run on localhost sserver.
+
+
+    admin :::
+        username: admin
+        password: admin
