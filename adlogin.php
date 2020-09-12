@@ -43,28 +43,28 @@ if(isset($_POST['go']))
         font-family: 'Rubik', sans-serif;
     }
     .box{
-        height:430px;
-        width:600px;
+        height:65%;
+        width:50%;
         background-color:white;
         position:relative;
-        top:75px;; left:345px;
+        top:15%; left:25%;
         border-radius: 10px;
     }
     .logo{
-        height:250px;
+        height:60%;
         position:absolute;
-        top:90px; left:0px;
+        top:20%; left:0px;
     }
     h1{
         position: absolute;
-        top:30px; right:80px;
+        top:20%; right:14%;
     }
     #email,#pass{
         position:absolute;
-        top:115px; right:35px;
-        height:35px;
-        width:300px;
-        border-radius:20px;
+        top:35%; right:5%;
+        height:7%;
+        width:40%;
+        border-radius:30px;
         border-style: none;
         background-color:rgb(197, 192, 192);
         padding:12px 20px;
@@ -74,17 +74,17 @@ if(isset($_POST['go']))
        border:solid rgb(13, 224, 13);
    }
    #pass{
-        top:178px; right:35px;
+        top:47%;
    }
    #pass:hover{
        border:solid rgb(13, 224, 13);
    }
    .login{
         position:absolute;
-        top:240px; right:35px;
-        height:35px;
-        width:300px;
-        border-radius:20px;
+        top:59%; right:5%;
+        height:7%;
+        width:40%;
+        border-radius:30px;
         border-style: none;
         background-color: rgb(13, 224, 13);
         color:white;
@@ -95,14 +95,14 @@ if(isset($_POST['go']))
    }
    .forgot{
     position:absolute;
-        top:290px; right:70px;
+        top:67%; right:13%;
    }
    #UP:hover{
        color:red;
    }
    .create{
-    position:absolute;
-        top:365px; right:94px;
+        position:absolute;
+        top:75%; right:15%;
         color:rgb(13, 224, 13);
         text-decoration: none;
    }
@@ -111,8 +111,8 @@ if(isset($_POST['go']))
    }
    .eye{
        position:absolute;
-       right:50px;
-       top:186px;
+       right:6%;
+       top:49%;
        font-size:20px;
        color: #999;
        z-index:100;

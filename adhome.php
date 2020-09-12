@@ -35,7 +35,6 @@ header{
   text-align:center;
   font-size:1.9em;
    font-weight: thin;
-
 }
 #main-doc header {
   color: white;
@@ -93,7 +92,7 @@ header{
   font-size:1.9em;
    font-weight: thin;
    height:60px;
-   width:940px;
+   width:84%;
    position:absolute;
    right:-10px;
    top:-10px;
@@ -112,14 +111,16 @@ th {
 }
 .top{color:red;}
 </style>
-    </head> <body> <nav id="nav-bar">
-    <header>Mystore</header>
-    <ul>
-      <li><a class="nav-link" href="#list">List of Customer</a></li>
-      <li><a class="nav-link" href="#list1">Quries</a></li>
-      <li><a class="nav-link" href="#list2">Orders</a></li>
-      <li><a class="nav-link" href="logout.php">LOG OUT</a></li>
-      <li><a class="nav-link" href="#"></a></li>
+    </head>
+     <body> 
+     <nav id="nav-bar">
+      <header>Mystore</header>
+        <ul>
+            <li><a class="nav-link" href="#list">List of Customer</a></li>
+            <li><a class="nav-link" href="#list1">Quries</a></li>
+            <li><a class="nav-link" href="#list2">Orders</a></li>
+            <li><a class="nav-link" href="logout.php">LOG OUT</a></li>
+            <li><a class="nav-link" href="#"></a></li>
           </nav>
           <div class="title"><?php echo $a."&nbsp;" ?></div> 
  <main id="main-doc">  
